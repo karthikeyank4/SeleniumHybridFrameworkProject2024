@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Demo Application Test-Suite">
+  <test name="TestCase Execution for Login, Register and Search">
+    <classes>
+		<class name="com.seleniumproject.tests.Login"/>
+        <class name="com.seleniumproject.tests.Register"/>
+        <class name="com.seleniumproject.tests.Search"/>
+         </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
